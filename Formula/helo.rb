@@ -2,27 +2,27 @@
 class Helo < Formula
   desc "CLI for Helo API"
   homepage "https://github.com/helo-email/helo-cli"
-  version "0.3.1"
+  version "0.3.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/helo-email/helo-cli/releases/download/v0.3.1/helo_darwin_arm64.tar.gz"
-      sha256 "75508f4755669af2c0f81ba680726c1c5dc9e9e41f7f8d31b04be78115e64d73"
+      url "https://github.com/helo-email/helo-cli/releases/download/v0.3.2/helo_darwin_arm64.tar.gz"
+      sha256 "ea6f207eaac98f3312ca92cbab4a9bd40acb98703afcd202a19e9d25eddec268"
     end
     on_intel do
-      url "https://github.com/helo-email/helo-cli/releases/download/v0.3.1/helo_darwin_amd64.tar.gz"
-      sha256 "51954cbac884746a35934fad9458921f5e1dd193dc4dadd7b18ffade79e20647"
+      url "https://github.com/helo-email/helo-cli/releases/download/v0.3.2/helo_darwin_amd64.tar.gz"
+      sha256 "d813a939384bcd23cd3e5e44f745ca90351e7f6e35b6d301adf7c241c0e2ff5d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/helo-email/helo-cli/releases/download/v0.3.1/helo_linux_arm64.tar.gz"
-      sha256 "21c1708858dab0329e6060ee46c2b687113fbc1a267cdf535ffebace4693547a"
+      url "https://github.com/helo-email/helo-cli/releases/download/v0.3.2/helo_linux_arm64.tar.gz"
+      sha256 "72d8371994a7f95f699fe14294a664485888b3bc4927605afb791c78395725c2"
     end
     on_intel do
-      url "https://github.com/helo-email/helo-cli/releases/download/v0.3.1/helo_linux_amd64.tar.gz"
-      sha256 "ff083737279bc64e0f2c9ebca7aabb1b3d794a6b2f1f984a24ac32cd4667a1c8"
+      url "https://github.com/helo-email/helo-cli/releases/download/v0.3.2/helo_linux_amd64.tar.gz"
+      sha256 "0a1f132cfa0de6b3a8174b500fddebc38143b2561c5d1374b5db2e1478765498"
     end
   end
 
